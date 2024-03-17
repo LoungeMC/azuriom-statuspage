@@ -1,5 +1,15 @@
 @extends('layouts.app')
-
+@push("footer-scripts")
+    <script>
+        let reloadMinutes = 5;
+        let reloadMS = reloadMinutes * 60 * 1000;
+        $(document).ready(function () {
+            setInterval(function () {
+                location.reload();
+            }, reloadMS);
+        });
+    </script>
+@endpush
 @section('title', 'Status Page')
 
 @section('content')
