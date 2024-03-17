@@ -1,0 +1,15 @@
+{
+    "id": "statuspage",
+    "name": "Staus Page",
+    "description": "Plugin for Azuriom",
+    "version": "1.0.0",
+    "url": "https://azuriom.com",
+    "authors": [
+        "LoungeMC"
+    ],
+    "azuriom_api": "1.1.0",
+    "providers": [
+        "\\Azuriom\\Plugin\\StatusPage\\Providers\\StatusPageServiceProvider",
+        "\\Azuriom\\Plugin\\StatusPage\\Providers\\RouteServiceProvider"
+    ]
+}
