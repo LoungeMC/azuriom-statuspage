@@ -1,4 +1,4 @@
-?php
+<?php
 
 namespace Azuriom\Plugin\StatusPage\Models;
 
@@ -13,6 +13,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property int $port
  * @property string $type
  */
+
 class Checks extends Model
 {
     /**
