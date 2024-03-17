@@ -24,7 +24,7 @@ class CreateStatusPageServers extends Migration
             $table->string('host');
             $table->unsignedInteger('port')->nullable();
             $table->string('type');
-            $table->booleanm('status')->default(false);
+            $table->boolean('status')->default(false);
             $table->timestamps();
         });
     }
