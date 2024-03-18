@@ -15,6 +15,11 @@
 @section('content')
     <div class="card">
         <div class="card-body">
+            <div class="row">
+                <a href="{{ setting("url") }}" style="margin: auto; width: 80%; max-width: 200px; height: 80%; max-height: 200px">
+                    <img src="{{ image_url(setting('logo')) }}" />
+                </a>
+            </div>
             <h1 class="text-center">Status Page</h1>
             <div class="mb-3">
                 <h3 class="text-center">Current Network Status</h3>
